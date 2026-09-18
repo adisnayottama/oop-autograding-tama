@@ -26,25 +26,21 @@ public class Student {
         this.studentId = studentId;
         this.name = name;
         this.gpa = gpa;
-        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public String getStudentId() {
         // TODO: return studentId
         return studentId;
-        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public String getName() {
         // TODO: return name
         return name;
-        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public double getGpa() {
         // TODO: return gpa
         return gpa;
-        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     /**
@@ -65,6 +61,5 @@ public class Student {
         } else {
             return "Satisfactory";
         }
-        throw new UnsupportedOperationException("Not implemented yet");
     }
 }
